@@ -36,7 +36,7 @@ reported issues and contributed.
 
 | Package | Version | License |
 |---|---|---|
-| [Simple Host Enterprise](https://github.com/vineetu/simple-host-enterprise) | v1.9.1 (chart 0.1.0) | [Apache 2.0](https://github.com/vineetu/simple-host-enterprise/blob/main/LICENSE) |
+| [Simple Host Enterprise](https://github.com/vineetu/simple-host-enterprise) | v0.9.2 (chart 0.1.1) | [Apache 2.0](https://github.com/vineetu/simple-host-enterprise/blob/main/LICENSE) |
 | [PostgreSQL](https://www.postgresql.org/) | 16.11 | [PostgreSQL](https://www.postgresql.org/about/licence/) |
 | [Traefik](https://traefik.io/) | v3.7 (chart 41.6.0) | [MIT](https://github.com/traefik/traefik/blob/master/LICENSE.md) |
 | [cert-manager](https://cert-manager.io/) | v1.21.2 | [Apache 2.0](https://github.com/cert-manager/cert-manager/blob/master/LICENSE) |
@@ -100,7 +100,7 @@ certificates:
 Apply them:
 
 ```
-helm upgrade simple-host-enterprise oci://ghcr.io/vineetu/charts/simple-host-enterprise --version 0.1.0 -n simple-host --reset-then-reuse-values -f my-values.yaml
+helm upgrade simple-host-enterprise oci://ghcr.io/vineetu/charts/simple-host-enterprise --version 0.1.1 -n simple-host --reset-then-reuse-values -f my-values.yaml
 ```
 
 Point `<domain>` and `*.<domain>` (two `A` records) at the load balancer's IP:
