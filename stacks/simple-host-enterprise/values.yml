@@ -1,0 +1,5 @@
+# Installed with nothing to configure: the chart starts the database and
+# generates its secrets, and Simple Host starts once a domain, sign-in and a
+# bucket are set (README.md, "Finish setup"). Every chart value, with its
+# default, is in the chart's values.yaml.
+{}
